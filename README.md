@@ -1,30 +1,7 @@
 # Olá, eu sou o João Vitor Carvalho! 👋
 
-### 👨‍💻 Estudante de Engenharia de Software na Univerdidade Federal de Goiás | Desenvolvedor Back-end em formação
+### 👨‍💻 Estudante de Engenharia de Software na Univerdidade Federal de Goiás
 
-### 📈 Estatísticas e Dados do GitHub
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=joaovitor0630&label=Visitas+ao+Perfil&color=0077B5&style=flat" alt="Contador de Visitas" />
-</div>
-<br>
-
-<div align="center">
-  <a href="https://github.com/joaovitor0630">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaovitor0630&show_icons=true&theme=radical&include_all_commits=true&count_private=true&locale=pt-br" alt="Estatísticas do GitHub de João Vitor"/>
-  </a>
-  <a href="https://github.com/joaovitor0630">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaovitor0630&layout=compact&theme=radical&locale=pt-br" alt="Linguagens mais usadas"/>
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://github.com/joaovitor0630">
-    <img src="https://streak-stats.demolab.com/?user=joaovitor0630&theme=radical&locale=pt-br" alt="GitHub Streak de João Vitor"/>
-  </a>
-</div>
 
 Sou apaixonado por tecnologia, lógica de programação e por resolver problemas. Meu objetivo é me tornar um profissional versátil, expandindo meus conhecimentos em banco de dados, arquitetura de sistemas e boas práticas para criar soluções de software robustas e inovadoras.
 
@@ -42,9 +19,6 @@ Sou apaixonado por tecnologia, lógica de programação e por resolver problemas
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-### 📈 Estatísticas do GitHub
-
-[![Estatísticas do GitHub de João Vitor](https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=radical&locale=pt-br)](https://github.com/SEU_USUARIO_AQUI)
 
 ### 📫 Como me encontrar
 
