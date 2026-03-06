@@ -5,24 +5,24 @@
 ### 📈 Estatísticas e Dados do GitHub
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=SEU_USUARIO_AQUI&label=Visitas+ao+Perfil&color=0077B5&style=flat" alt="Contador de Visitas" />
+  <img src="https://komarev.com/ghpvc/?username=joaovitor0630&label=Visitas+ao+Perfil&color=0077B5&style=flat" alt="Contador de Visitas" />
 </div>
 <br>
 
 <div align="center">
-  <a href="https://github.com/SEU_USUARIO_AQUI">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=radical&include_all_commits=true&count_private=true&locale=pt-br" alt="Estatísticas do GitHub de João Vitor"/>
+  <a href="https://github.com/joaovitor0630">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaovitor0630&show_icons=true&theme=radical&include_all_commits=true&count_private=true&locale=pt-br" alt="Estatísticas do GitHub de João Vitor"/>
   </a>
-  <a href="https://github.com/SEU_USUARIO_AQUI">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=radical&locale=pt-br" alt="Linguagens mais usadas"/>
+  <a href="https://github.com/joaovitor0630">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaovitor0630&layout=compact&theme=radical&locale=pt-br" alt="Linguagens mais usadas"/>
   </a>
 </div>
 
 <br>
 
 <div align="center">
-  <a href="https://github.com/SEU_USUARIO_AQUI">
-    <img src="https://streak-stats.demolab.com/?user=SEU_USUARIO_AQUI&theme=radical&locale=pt-br" alt="GitHub Streak de João Vitor"/>
+  <a href="https://github.com/joaovitor0630">
+    <img src="https://streak-stats.demolab.com/?user=joaovitor0630&theme=radical&locale=pt-br" alt="GitHub Streak de João Vitor"/>
   </a>
 </div>
 
