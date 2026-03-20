@@ -1,6 +1,6 @@
 # Olá, eu sou o João Vitor Carvalho! 👋
 
-### 👨‍💻 Estudante de Engenharia de Software na Univerdidade Federal de Goiás
+### 👨‍💻 Estudante de Engenharia de Software na Universidade Federal de Goiás
 
 
 Sou apaixonado por tecnologia, lógica de programação e por resolver problemas. Meu objetivo é me tornar um profissional versátil, expandindo meus conhecimentos em banco de dados, arquitetura de sistemas e boas práticas para criar soluções de software robustas e inovadoras.
