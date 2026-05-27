@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor | Portfólio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-950 text-gray-100 font-sans antialiased scroll-smooth">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-gray-900/80 backdrop-blur-md border-b border-gray-800 z-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold text-cyan-400 font-mono">&lt;JV /&gt;</span>
+            <div class="flex space-x-6 text-sm font-medium">
+                <a href="#sobre" class="hover:text-cyan-400 transition">Sobre</a>
+                <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+                <a href="#projetos" class="hover:text-cyan-400 transition">Projetos</a>
+                <a href="#trajetoria" class="hover:text-cyan-400 transition">Trajetória</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center min-h-[70vh]">
+        <p class="text-cyan-400 font-mono mb-3">Olá, meu nome é</p>
+        <h1 class="text-5xl sm:text-6xl font-extrabold text-white mb-4 tracking-tight">
+            João Vitor Carvalho.
+        </h1>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-400 mb-6">
+            Desenvolvedor Backend & Estudante de Engenharia de Software.
+        </h2>
+        <p class="text-gray-400 max-w-xl text-lg mb-8 leading-relaxed">
+            Focado na criação de soluções robustas, eficientes e escaláveis. Apaixonado por arquitetura de software, sistemas embarcados e visão computacional.
+        </p>
+        <div class="flex space-x-4">
+            <a href="#projetos" class="bg-cyan-500 hover:bg-cyan-600 text-gray-950 font-bold px-6 py-3 rounded-lg transition shadow-lg shadow-cyan-500/20">
+                Ver Projetos
+            </a>
+            <a href="https://github.com" target="_blank" class="border border-gray-700 hover:border-cyan-400 text-gray-300 hover:text-cyan-400 px-6 py-3 rounded-lg transition flex items-center gap-2">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="py-20 bg-gray-900/50 border-y border-gray-900">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-white flex items-center gap-3">
+                <span class="text-cyan-400 font-mono text-xl">01.</span> Sobre Mim
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 items-center">
+                <div class="md:col-span-2 space-y-4 text-gray-400 leading-relaxed">
+                    <p>
+                        Atualmente graduando em <strong>Engenharia de Software na Universidade Federal de Goiás (UFG)</strong>. Minha jornada na tecnologia é movida pela curiosidade de entender como sistemas complexos funcionam por baixo dos panos.
+                    </p>
+                    <p>
+                        Tenho forte inclinação para o desenvolvimento <strong>backend</strong> e infraestrutura. Além disso, atuo compartilhando conhecimento como instrutor de informática e programação, ajudando a formar a próxima base de talentos técnicos.
+                    </p>
+                </div>
+                <!-- Card de Destaque Técnico -->
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center shadow-xl">
+                    <i class="fas fa-code-branch text-4xl text-cyan-400 mb-3"></i>
+                    <h3 class="text-white font-bold mb-1">Foco Atual</h3>
+                    <p class="text-gray-400 text-sm">Sistemas Distribuídos, Algoritmos e Otimização de Código.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-white flex items-center gap-3">
+            <span class="text-cyan-400 font-mono text-xl">02.</span> Tecnologias & Ferramentas
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <!-- Go -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <span class="text-cyan-400 font-bold font-mono text-xl">Go</span>
+                <span class="text-sm text-gray-400">Golang</span>
+            </div>
+            <!-- Java -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fab fa-java text-2xl text-orange-500"></i>
+                <span class="text-sm text-gray-400">Java</span>
+            </div>
+            <!-- Python -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fab fa-python text-2xl text-yellow-500"></i>
+                <span class="text-sm text-gray-400">Python</span>
+            </div>
+            <!-- C -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <span class="text-cyan-400 font-bold font-mono text-xl">C</span>
+                <span class="text-sm text-gray-400">Linguagem C</span>
+            </div>
+            <!-- Linux -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fab fa-linux text-2xl text-white"></i>
+                <span class="text-sm text-gray-400">Linux / Ubuntu</span>
+            </div>
+            <!-- SQL -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fas fa-database text-2xl text-blue-400"></i>
+                <span class="text-sm text-gray-400">PostgreSQL / SQL</span>
+            </div>
+            <!-- Git -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fab fa-git-alt text-2xl text-orange-600"></i>
+                <span class="text-sm text-gray-400">Git & GitHub</span>
+            </div>
+            <!-- Docker -->
+            <div class="bg-gray-900 border border-gray-800 p-4 rounded-xl flex items-center gap-3 hover:border-cyan-500/50 transition">
+                <i class="fab fa-docker text-2xl text-blue-500"></i>
+                <span class="text-sm text-gray-400">Docker</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="py-20 bg-gray-900/50 border-y border-gray-900">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-white flex items-center gap-3">
+                <span class="text-cyan-400 font-mono text-xl">03.</span> Projetos em Destaque
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Projeto 1 -->
+                <div class="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="far fa-folder text-3xl text-cyan-400"></i>
+                            <a href="#" class="text-gray-400 hover:text-cyan-400 text-xl"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Sistema de Gerenciamento de O.S.</h3>
+                        <p class="text-gray-400 text-sm mb-4">
+                            Documentação e arquitetura de um sistema para gestão de ordens de serviço de assistência técnica. Desenvolvido pensando em regras de negócio complexas e integrando PHP e PostgreSQL.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 text-xs font-mono text-cyan-400/80">
+                        <span>PHP</span> <span>PostgreSQL</span> <span>DERS</span>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:-translate-y-1 transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <i class="fas fa-satellite-dish text-3xl text-cyan-400"></i>
+                            <a href="#" class="text-gray-400 hover:text-cyan-400 text-xl"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Monitoramento Ambiental com VANTs</h3>
+                        <p class="text-gray-400 text-sm mb-4">
+                            Pesquisa acadêmica e desenvolvimento de scripts de filtragem aplicados à detecção de focos de incêndio florestal utilizando drones e visão computacional.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 text-xs font-mono text-cyan-400/80">
+                        <span>Python</span> <span>Computer Vision</span> <span>UAVs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trajetória -->
+    <section id="trajetoria" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-white flex items-center gap-3">
+            <span class="text-cyan-400 font-mono text-xl">04.</span> Trajetória & Experiência
+        </h2>
+        <div class="space-y-8 relative before:absolute before:inset-0 before:left-4 before:w-0.5 before:bg-gray-800">
+            <!-- Item 1 -->
+            <div class="relative pl-10 group">
+                <div class="absolute left-2.5 top-1.5 w-3.5 h-3.5 bg-cyan-400 rounded-full group-hover:scale-125 transition"></div>
+                <span class="text-xs font-mono text-cyan-400">2026 — 2030 (Previsão)</span>
+                <h3 class="text-lg font-bold text-white mt-1">Bacharelado em Engenharia de Software</h3>
+                <p class="text-sm text-gray-400 mb-2">Universidade Federal de Goiás (UFG)</p>
+            </div>
+            <!-- Item 2 -->
+            <div class="relative pl-10 group">
+                <div class="absolute left-2.5 top-1.5 w-3.5 h-3.5 bg-gray-700 rounded-full group-hover:bg-cyan-400 transition"></div>
+                <span class="text-xs font-mono text-gray-500">2026 — Presente</span>
+                <h3 class="text-lg font-bold text-white mt-1">Instrutor de Informática & Programação</h3>
+                <p class="text-sm text-gray-400 mb-2">Ensino Tecnológico</p>
+                <p class="text-sm text-gray-400 max-w-xl">Criação de materiais pedagógicos estruturados e introdução à lógica de programação e ferramentas essenciais para turmas jovens.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-900 py-8 text-center text-sm text-gray-500 font-mono">
+        <p>Desenhado & Desenvolvido por João Vitor</p>
+        <p class="text-xs mt-1 text-gray-600">Construído com Tailwind CSS & GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
